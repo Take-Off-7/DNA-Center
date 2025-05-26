@@ -5,7 +5,9 @@ import calendar
 
 #################### LOGIN ####################
 dna = api.DNACenterAPI(base_url='https://sandboxdnac2.cisco.com', 
-                       username='devnetuser', password='Cisco123!', verify=False)
+                       username='devnetuser', 
+                       password=#(password goes here), 
+                       verify=False)
 
 #################### NETWORKS AND SITES ####################
 
